@@ -1,8 +1,37 @@
 # About
 
 Base structure for my games, using **Heaps** framework (https://heaps.io) and **Haxe** language (https://haxe.org).
+# Prereq for good dev experience
+Install the latest if the following
+```
+haxe
+hashlink
+```
 
-# Installation & usage
+# Installation
+- Install all dependencies
+```
+ haxelib install all | yes 
+```
+- Modify your debug file
+```
+# linux
+hl.hlsdl.hxml
+
+# windows
+# -lib hldx
+-debug
+```
+- Build your game on hashlink
+```
+haxe hl.debug.hxml
+```
+- Start the executable
+```
+hl bin/client.hl
+```
+
+# Usage
 
 Please check this documentation for every details: https://deepnight.net/tutorial/using-my-gamebase-to-create-a-heaps-game/
 

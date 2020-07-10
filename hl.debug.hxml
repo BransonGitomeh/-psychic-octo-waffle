@@ -1,2 +1,6 @@
-hl.dx.hxml
+# linux
+hl.hlsdl.hxml
+
+# windows
+# -lib hldx
 -debug
